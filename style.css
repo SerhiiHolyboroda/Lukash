@@ -1,0 +1,90 @@
+.Lukash {
+  height: 30%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Lukash__p1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Lukash__p1 * {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.Lukash__p1__red {
+  height: 10%;
+  width: 5%;
+}
+
+.Lukash__p2 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.Lukash__p2 * {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+img {
+  -webkit-animation: float 5s  ease-in-out infinite;
+          animation: float 5s  ease-in-out infinite;
+}
+
+@-webkit-keyframes float {
+  0% {
+    -webkit-transform: translate(-50%, 0%);
+            transform: translate(-50%, 0%);
+  }
+  50% {
+    -webkit-transform: translate(-50%, 30%);
+            transform: translate(-50%, 30%);
+  }
+  100% {
+    -webkit-transform: translate(-50%, 0%);
+            transform: translate(-50%, 0%);
+  }
+}
+
+@keyframes float {
+  0% {
+    -webkit-transform: translate(-50%, 0%);
+            transform: translate(-50%, 0%);
+  }
+  50% {
+    -webkit-transform: translate(-50%, 30%);
+            transform: translate(-50%, 30%);
+  }
+  100% {
+    -webkit-transform: translate(-50%, 0%);
+            transform: translate(-50%, 0%);
+  }
+}
+/*# sourceMappingURL=style.css.map */
